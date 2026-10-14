@@ -1,0 +1,72 @@
+SPEECH AUDIO ANNOTATIONS
+======================================================
+SPEECH JUDGE PROJECT - FINAL PROTOTYPE DATASET
+======================================================
+
+ORIGINAL TEXT SCRIPT:
+"Good morning everyone. My name is Rohit. Today, I want to talk about the importance of technology in our daily life. Technology helps us communicate, learn new things, and solve many problems. But using technology wisely is also important. We should use it to save time, improve our skills, and make our lives easier. Thank you"
+
+------------------------------------------------------
+AUDIO FILES & TIMELINE BREAKDOWN FOR EVALUATION:
+------------------------------------------------------
+
+1. NORMAL AUDIO
+File: speech_01_normal .mp3
+Analysis Type: Baseline Speech Reference
+Problem: None (Standard check)
+Timestamp: 00:00 - End -> Perfect Speech Flow
+
+
+2. SPEECH ANXIETY & PAUSE AUDIO
+File: speech_02_pause.mp3
+Analysis Type: Speech Anxiety & Fluency Analysis
+Problem: Irregular speech pace, unwanted gaps, filler sounds ("umm"), and nervous laughter ("haha")
+Timestamp: 
+  * 00:00 - 00:02 -> Perfect Speech Flow
+  * 00:02 - 00:03 -> Awkward Silence / Speech Gap
+  * 00:03 - 00:05 -> Deep Sigh of Relief / Post-Rushed Exhalation (Indicates the speaker rushed to finish the speech due to nervousness and expressed immediate relief at the end).
+  * 00:05 - 00:08 -> Perfect Speech Flow
+  * 00:08 - 00:10 -> Gasping ("haha")
+  * 00:10 - 00:14 -> Perfect Speech Flow
+  * 00:14 - 00:16 -> Filler Sound Detected ("umm")
+  * 00:16 - 00:24 -> Perfect Speech Flow
+  * 00:24 - 00:26 -> Filler Sound Detected ("umm")
+  * 00:26 - 00:30 -> Perfect Speech Flow
+  * 00:30 - 00:32 -> Accelerated Speech Flow (Rushed Speech)
+  
+
+3. LOW VOLUME & MUMBLING AUDIO
+File: speech_03_low_mumbling_volume .mp3
+Analysis Type: Audio Energy & Volume Amplitude Analysis
+Problem: Sub-standard loudness levels (whispering), slurred speech (mumbling), and high-anxiety emotional tremors (heavy gasping)
+Timestamp: 
+  * 00:00 - 00:04 -> Nervous Stuttering with Low-Amplitude Whisper (Speaker is stuttering due to fear/anxiety while maintaining a sub-standard whispering volume) 
+  * 00:04 - 00:06 -> Perfect Speech Flow
+  * 00:06 - 00:07 -> Intense Tremor / Heavy Gasping sound (High-stress simulation)        
+  * 00:07 - 00:10 -> Low-amplitude Whisper (Inaudible/Mumbling sound)           
+  * 00:10 - 00:12 -> Perfect Speech Flow
+  * 00:12 - 00:14 -> Filler Sound Detected ("umm")
+  * 00:14 - 00:22 -> Perfect Speech Flow
+  * 00:22 - 00:24 -> Filler Sound Detected ("umm")
+  * 00:24 - 00:32 -> Perfect Speech Flow
+
+
+4. EXTREMELY RUSHED AUDIO
+File: speech_04_extremely rushed,rushed .mp3
+Analysis Type: Temporal Tempo & Speech Rate Analysis
+Problem: Highly irregular speech rate (Extremely rushed transitions), absolute absence of punctuation marks, and zero breath-pauses
+Timestamp: 
+  * 00:00 - 00:04 -> Hyper-Accelerated Speech (Extremely rushed, words are tightly compressed without punctuations)
+  * 00:04 - 00:10 -> Moderately Rushed Speech (Speed decreases slightly, but still lacks natural breath gaps)
+  * 00:10 - End   -> Complete absence of punctuation cues (No commas or full-stops recognized in speech flow)
+
+
+
+Note: All audio files are in KB size. We can directly upload them to GitHub under an 'audio_samples/' directory. Please include this timeline description in our project GitHub README.md file.
+======================================================
+
+
+
+
+
+
